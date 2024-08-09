@@ -116,3 +116,11 @@ a:visited {
 .welcome {
     margin-bottom: 20px;
 }
+
+.free_meme {
+    margin-top: 500px;
+}
+
+.free_meme img {
+    margin-top: 20px;
+}
