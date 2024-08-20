@@ -29,7 +29,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    /* max-width: 1200px; Constrain the width */
     margin: 0 auto; /* Center the nav */
     padding: 1em 1em; /* Add padding to the sides */
 }
@@ -46,14 +45,6 @@ nav {
 .nav-left h1 {
     font-size: 1.5em;
     margin: 0;
-}
-
-hr {
-    border: 0;
-    height: 1px;
-    background: #e0e0e0;
-    margin: 20px 0 0 0; /* Adjust margin to control spacing */
-    width: 100%;
 }
 
 main {
@@ -102,18 +93,33 @@ a:visited {
 }
 
 .cat-aside {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
+.cat-aside h6 {
+    align-self: center;
+}
+
 .bosco {
-    margin-top: 20px;
+    margin-top: 10px;
     display: block;
 }
 
 .welcome {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome h3 {
+    margin-top: 1em;
+    line-height: 150%;
+    margin-bottom: 1em;
 }
 
 .free_meme {
